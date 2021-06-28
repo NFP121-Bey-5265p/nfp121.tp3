@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=Pile3
+comment0.text=\r\n\ D\u00C3\u00A9crivez\ votre\ classe\ PileVector\ ici.\r\n\ \r\n\ @author\ (votre\ nom)\r\n\ @version\ (un\ num\u00C3\u00A9ro\ de\ version\ ou\ une\ date)\r\n
+comment1.params=
+comment1.target=Pile3()
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment11.params=object
+comment11.target=boolean\ equals(java.lang.Object)
+comment11.text=first\ trial\ that\ didn't\ work\ in\ question2-5\ while\ comparing\r\n\ PileI\ to\ Pile\ and\ Pile2\ and\ Pile3\r\n\ public\ boolean\ equals(Object\ o)\ {\r\n\ \ \ \ \ \ \ \ if\ (this\ \=\=\ o)\ return\ true;\r\n\ \ \ \ \ \ \ \ if\ (o\ \=\=\ null)\ return\ false;\r\n\ \ \ \ \ \ \ \ if\ (\!(o\ instanceof\ Pile3))\ return\ false;\r\n\ \ \ \ \ \ \ \ Pile3\ pile\=\ (Pile3)o;\r\n\ \ \ \ \ \ \ \ if\ (v.size()\ \!\=\ pile.v.size()){return\ false;}\r\n\ \ \ \ \ \ \ \ if\ (capacite\ \!\=\ pile.capacite){return\ false;}\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ for\ (int\ i\=0;i<v.size();i++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (\ v.elementAt(i)\!\=pile.v.elementAt(i)\ )return\ false;\r\n\ \ \ \ \ \ \ \ }\ \r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ return\ true;\r\n}
+comment12.params=p1\ p2
+comment12.target=void\ remplirPile(PileI,\ PileI)
+comment13.params=
+comment13.target=int\ hashCode()
+comment2.params=taille
+comment2.target=Pile3(int)
+comment3.params=o
+comment3.target=void\ empiler(java.lang.Object)
+comment4.params=
+comment4.target=java.lang.Object\ depiler()
+comment5.params=
+comment5.target=java.lang.Object\ sommet()
+comment6.params=
+comment6.target=int\ taille()
+comment7.params=
+comment7.target=int\ capacite()
+comment8.params=
+comment8.target=boolean\ estVide()
+comment9.params=
+comment9.target=boolean\ estPleine()
+numComments=14

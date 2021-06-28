@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Pile
+comment0.text=\r\n\ A\ remplacer\ par\ votre\ classe\ Pile\ .\r\n\ \r\n\ @author\ (votre\ nom)\r\n\ @version\ (un\ num\u00C3\u00A9ro\ de\ version\ ou\ une\ date)\r\n
+comment1.params=taille
+comment1.target=Pile(int)
+comment1.text=\r\n\ \u00C3\u00A0\ compl\u00C3\u00A9?ter\r\n\ \r\n
+comment2.params=
+comment2.target=Pile()
+comment3.params=i
+comment3.target=void\ empiler(java.lang.Object)
+comment4.params=
+comment4.target=java.lang.Object\ depiler()
+comment5.params=
+comment5.target=boolean\ estVide()
+comment6.params=
+comment6.target=boolean\ estPleine()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8
